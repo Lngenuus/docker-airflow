@@ -26,7 +26,7 @@ Optionally install [Extra Airflow Packages](https://airflow.incubator.apache.org
 
 or combined
 
-    docker build --rm --build-arg AIRFLOW_DEPS="datadog,dask" --build-arg PYTHON_DEPS="flask_oauthlib>=0.9" -t puckel/docker-airflow .
+    docker build --rm --build-arg AIRFLOW_DEPS="datadog,dask" --build-arg PYTHON_DEPS="flask_oauthlib>=0.9" -t noob41/docker-airflow .
 
 Don't forget to update the airflow images in the docker-compose files to puckel/docker-airflow:latest.
 
