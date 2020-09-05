@@ -1,11 +1,11 @@
 # VERSION 1.0
-# AUTHOR: Ashank Alva
+# AUTHOR: noob41
 # DESCRIPTION: Basic Airflow container with Password
-# BUILD: docker build --rm -t puckel/docker-airflow .
-# SOURCE: https://github.com/puckel/docker-airflow
+# BUILD: docker build --rm -t noob41/docker-airflow .
+# SOURCE: https://github.com/noob41/docker-airflow
 
 FROM python:3.7-slim-buster
-LABEL maintainer="ashank_"
+LABEL maintainer="noob41_"
 
 # Never prompt the user for choices on installation/configuration of packages
 ENV DEBIAN_FRONTEND noninteractive
