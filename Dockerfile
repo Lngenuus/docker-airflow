@@ -1,4 +1,4 @@
-# VERSION 1.10.9.1
+# VERSION 1.0
 # AUTHOR: Ashank Alva
 # DESCRIPTION: Basic Airflow container with Password
 # BUILD: docker build --rm -t puckel/docker-airflow .
